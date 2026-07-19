@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-19T14:50:25 GMT-05:00" name="TestNGTest" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="200">
+    <groups>
+    </groups>
+    <test started-at="2026-07-19T14:50:25 GMT-05:00" name="TestNGTest2" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="72">
+      <class name="Test.Day3Test">
+        <test-method signature="demo5()[pri:0, instance:Test.Day3Test@3e57cd70]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo5" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method signature="demo6()[pri:0, instance:Test.Day3Test@3e57cd70]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo6" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+        <test-method signature="demo7()[pri:0, instance:Test.Day3Test@3e57cd70]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo7" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo7 -->
+      </class> <!-- Test.Day3Test -->
+      <class name="Test.Day1NormalTest">
+        <test-method signature="demo()[pri:0, instance:Test.Day1NormalTest@fad74ee]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo2()[pri:0, instance:Test.Day1NormalTest@fad74ee]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo2" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- Test.Day1NormalTest -->
+      <class name="Test.Day2NormalTest">
+        <test-method signature="demo3()[pri:0, instance:Test.Day2NormalTest@1d8d30f7]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo3" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method signature="demo4()[pri:0, instance:Test.Day2NormalTest@1d8d30f7]" started-at="2026-07-19T14:50:25 GMT-05:00" name="demo4" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- Test.Day2NormalTest -->
+    </test> <!-- TestNGTest2 -->
+    <test started-at="2026-07-19T14:50:25 GMT-05:00" name="TestNGTest3" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="6">
+      <class name="Test.CarLoanTest">
+        <test-method signature="CanAutoTest()[pri:0, instance:Test.CarLoanTest@4524411f]" started-at="2026-07-19T14:50:25 GMT-05:00" name="CanAutoTest" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanAutoTest -->
+        <test-method signature="CarTest()[pri:0, instance:Test.CarLoanTest@4524411f]" started-at="2026-07-19T14:50:25 GMT-05:00" name="CarTest" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarTest -->
+        <test-method signature="CarWebtest()[pri:0, instance:Test.CarLoanTest@4524411f]" started-at="2026-07-19T14:50:25 GMT-05:00" name="CarWebtest" finished-at="2026-07-19T14:50:25 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarWebtest -->
+      </class> <!-- Test.CarLoanTest -->
+    </test> <!-- TestNGTest3 -->
+  </suite> <!-- TestNGTest -->
+</testng-results>

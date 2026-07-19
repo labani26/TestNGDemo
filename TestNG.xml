@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGTest">
+
+    <test name="TestNGTest2">
+        <classes>
+            <class name="Test.Day1NormalTest"/>
+            <class name="Test.Day2NormalTest"/>
+            <class name="Test.Day3Test"/>
+        </classes>
+    </test>
+
+    <test name="TestNGTest3">
+        <classes>
+            <class name="Test.CarLoanTest"/>
+        </classes>
+    </test>
+
+</suite>

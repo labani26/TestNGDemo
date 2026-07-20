@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,11 +109,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGTest" title="Test.CarLoanTest" class="method navigator-link" hash-for-method="CarTest">CarTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNGTest" title="Test.Day1NormalTest" class="method navigator-link" hash-for-method="demo">demo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -161,21 +156,28 @@
           <div class="suite-TestNGTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Test.Day2NormalTest</span>
+              <span class="class-name">Test.Day3Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="demo3">
-                  </a> <!-- demo3 -->
-                  <span class="method-name">demo3</span>
+                  <a name="demo5">
+                  </a> <!-- demo5 -->
+                  <span class="method-name">demo5</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="demo4">
-                  </a> <!-- demo4 -->
-                  <span class="method-name">demo4</span>
+                  <a name="demo6">
+                  </a> <!-- demo6 -->
+                  <span class="method-name">demo6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo7">
+                  </a> <!-- demo7 -->
+                  <span class="method-name">demo7</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,13 +188,6 @@
               <span class="class-name">Test.Day1NormalTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="demo">
-                  </a> <!-- demo -->
-                  <span class="method-name">demo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="demo2">
@@ -227,28 +222,21 @@
           <div class="suite-TestNGTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Test.Day3Test</span>
+              <span class="class-name">Test.Day2NormalTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="demo5">
-                  </a> <!-- demo5 -->
-                  <span class="method-name">demo5</span>
+                  <a name="demo3">
+                  </a> <!-- demo3 -->
+                  <span class="method-name">demo3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="demo6">
-                  </a> <!-- demo6 -->
-                  <span class="method-name">demo6</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="demo7">
-                  </a> <!-- demo7 -->
-                  <span class="method-name">demo7</span>
+                  <a name="demo4">
+                  </a> <!-- demo4 -->
+                  <span class="method-name">demo4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,7 +253,11 @@
 &lt;suite name=&quot;TestNGTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestNGTest2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.Day1NormalTest&quot;/&gt;
+      &lt;class name=&quot;Test.Day1NormalTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;demo2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.Day1NormalTest --&gt;
       &lt;class name=&quot;Test.Day2NormalTest&quot;/&gt;
       &lt;class name=&quot;Test.Day3Test&quot;/&gt;
     &lt;/classes&gt;
@@ -319,48 +311,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'demo')
+data.setCell(0, 1, 'demo2')
 data.setCell(0, 2, 'Test.Day1NormalTest')
 data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'demo4')
-data.setCell(1, 2, 'Test.Day2NormalTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'demo7')
+data.setCell(1, 2, 'Test.Day3Test')
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'demo7')
+data.setCell(2, 1, 'demo6')
 data.setCell(2, 2, 'Test.Day3Test')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'demo5')
 data.setCell(3, 2, 'Test.Day3Test')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CarTest')
-data.setCell(4, 2, 'Test.CarLoanTest')
+data.setCell(4, 1, 'demo4')
+data.setCell(4, 2, 'Test.Day2NormalTest')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'demo6')
-data.setCell(5, 2, 'Test.Day3Test')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'CanAutoTest')
+data.setCell(5, 2, 'Test.CarLoanTest')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'demo2')
-data.setCell(6, 2, 'Test.Day1NormalTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'CarTest')
+data.setCell(6, 2, 'Test.CarLoanTest')
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'demo3')
 data.setCell(7, 2, 'Test.Day2NormalTest')
 data.setCell(7, 3, 0);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'CanAutoTest')
-data.setCell(8, 2, 'Test.CarLoanTest')
-data.setCell(8, 3, 0);
 window.suiteTableData['TestNGTest']= { tableData: data, tableDiv: 'times-div-TestNGTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-TestNGTest">
               </div> <!-- times-div-TestNGTest -->
             </div> <!-- times-div -->
@@ -375,9 +363,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestNGTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.Day1NormalTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">demo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">Test.CarLoanTest</span>
               <div class="ignored-methods-div">
@@ -395,12 +390,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day1NormalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">demo</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">demo2</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -411,33 +402,33 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo4</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day3Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">demo5</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo6</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo7</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.CarLoanTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CanAutoTest</span>
-                <span class="method-start">150 ms</span>
+                <span class="method-start">142 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CarTest</span>
-                <span class="method-start">152 ms</span>
+                <span class="method-start">144 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

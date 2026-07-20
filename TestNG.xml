@@ -6,7 +6,11 @@
 
     <test name="TestNGTest2">
         <classes>
-            <class name="Test.Day1NormalTest"/>
+            <class name="Test.Day1NormalTest">
+            <methods>
+            <include name="demo2"/>
+            </methods>
+            </class>
             <class name="Test.Day2NormalTest"/>
             <class name="Test.Day3Test"/>
         </classes>

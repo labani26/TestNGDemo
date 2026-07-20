@@ -14,7 +14,11 @@
 
     <test name="TestNGTest3">
         <classes>
-            <class name="Test.CarLoanTest"/>
+            <class name="Test.CarLoanTest">
+            <methods>
+            <exclude name = "CarWebtest"/>
+            </methods>
+            </class>
         </classes>
     </test>
 

@@ -8,7 +8,7 @@
         <classes>
             <class name="Test.Day1NormalTest">
             <methods>
-            <include name="demo2"/> 
+            <include name="demo2"/>
             </methods>
             </class>
             <class name="Test.Day2NormalTest"/>

@@ -1,4 +1,8 @@
 package Test;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
@@ -54,6 +58,15 @@ public class Day1NormalTest {
     	System.out.println("I will execute after method");
     }
     
+    @BeforeClass
+    public void BeforeClass() {
+    	System.out.println("I will execute before class");
+    }
+    
+    @AfterClass
+    public void AfterClass() {
+    	System.out.println("I will execute after class");
+    }
 //    @BeforeTest → Runs once before the <test> section in testng.xml.
 //    @BeforeMethod → Runs before every @Test method in the class.
 

@@ -7,21 +7,32 @@ import org.testng.annotations.Test;
 
 public class Day3Test {
 
-    @Test(groups= {"Smoke"})
-    public void demo5() {
-        System.out.println("hgdghxgvnnhvm");
-    }
+	@Test(dependsOnMethods = {"demo6", "demo7"})
+	public void demo5() {
+	    System.out.println("hello");
+	}
 
-    @Test(groups= {"Smoke"})
+    @Test
     public void demo6() {
-        System.out.println("kjgjyfhgsdeafea");
+        System.out.println("kello");
     }
 
-    @Test(groups= {"Smoke"})
+    @Test
     public void demo7() {
-        System.out.println("oiyiurtydg");
+        System.out.println("ollo");
     }
-
+    
+    @Test(enabled = false)
+    public void demo8() {
+        System.out.println("pllo");
+    }
+    
+    @Test
+    public void demo9() {
+        System.out.println("Tllo");
+    }
+    
+    
 //    public static void main(String[] args) {
 //
 //        TestNG testng = new TestNG();

@@ -7,17 +7,17 @@ import org.testng.annotations.Test;
 
 public class Day3Test {
 
-    @Test
+    @Test(groups= {"Smoke"})
     public void demo5() {
         System.out.println("hgdghxgvnnhvm");
     }
 
-    @Test
+    @Test(groups= {"Smoke"})
     public void demo6() {
         System.out.println("kjgjyfhgsdeafea");
     }
 
-    @Test
+    @Test(groups= {"Smoke"})
     public void demo7() {
         System.out.println("oiyiurtydg");
     }

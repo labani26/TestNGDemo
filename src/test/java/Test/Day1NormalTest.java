@@ -23,7 +23,7 @@ public class Day1NormalTest {
         System.out.println("Hello TestNG");
     }
     
-    @Test
+    @Test(groups= {"Smoke"})
     public void demo2() {
     	System.out.println("Bye TestNG");
     }

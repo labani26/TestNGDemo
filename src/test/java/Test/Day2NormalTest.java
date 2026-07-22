@@ -9,7 +9,7 @@ public class Day2NormalTest {
         System.out.println("Test 123");
     }
 
-    @Test
+    @Test(groups= {"Smoke"})
     public void demo4() {
         System.out.println("Test ABC");
     }

@@ -2,74 +2,82 @@
 <testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-20T06:42:52 GMT-05:00" name="TestNGTest" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="377">
+  <suite started-at="2026-07-22T03:33:05 GMT-05:00" name="TestNGTest" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="287">
     <groups>
     </groups>
-    <test started-at="2026-07-20T06:42:52 GMT-05:00" name="TestNGTest2" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="199">
+    <test started-at="2026-07-22T03:33:05 GMT-05:00" name="TestNGTest2" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="66">
       <class name="Test.Day3Test">
-        <test-method signature="demo5()[pri:0, instance:Test.Day3Test@52525845]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo5" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo5()[pri:0, instance:Test.Day3Test@281e3708]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo5" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo5 -->
-        <test-method signature="demo6()[pri:0, instance:Test.Day3Test@52525845]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo6" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo6()[pri:0, instance:Test.Day3Test@281e3708]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo6" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo6 -->
-        <test-method signature="demo7()[pri:0, instance:Test.Day3Test@52525845]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo7" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="5" status="PASS">
+        <test-method signature="demo7()[pri:0, instance:Test.Day3Test@281e3708]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo7" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo7 -->
       </class> <!-- Test.Day3Test -->
       <class name="Test.Day1NormalTest">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="BeforeTest" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="BeforeTest" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="BeforeMethod" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="BeforeClass" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="BeforeMethod" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="demo2()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo2" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo2()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo2" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="AfterMethod" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="AfterMethod" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="AfterTest" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="AfterClass" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="AfterTest" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- Test.Day1NormalTest -->
       <class name="Test.Day2NormalTest">
-        <test-method signature="demo3()[pri:0, instance:Test.Day2NormalTest@5123a213]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo3" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="4" status="PASS">
+        <test-method signature="demo3()[pri:0, instance:Test.Day2NormalTest@68ceda24]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo3" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo3 -->
-        <test-method signature="demo4()[pri:0, instance:Test.Day2NormalTest@5123a213]" started-at="2026-07-20T06:42:52 GMT-05:00" name="demo4" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="4" status="PASS">
+        <test-method signature="demo4()[pri:0, instance:Test.Day2NormalTest@68ceda24]" started-at="2026-07-22T03:33:05 GMT-05:00" name="demo4" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo4 -->
       </class> <!-- Test.Day2NormalTest -->
     </test> <!-- TestNGTest2 -->
-    <test started-at="2026-07-20T06:42:52 GMT-05:00" name="TestNGTest3" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="8">
+    <test started-at="2026-07-22T03:33:05 GMT-05:00" name="TestNGTest3" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="6">
       <class name="Test.CarLoanTest">
-        <test-method signature="CanAutoTest()[pri:0, instance:Test.CarLoanTest@6e2c9341]" started-at="2026-07-20T06:42:52 GMT-05:00" name="CanAutoTest" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="CanAutoTest()[pri:0, instance:Test.CarLoanTest@1efee8e7]" started-at="2026-07-22T03:33:05 GMT-05:00" name="CanAutoTest" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CanAutoTest -->
-        <test-method signature="CarTest()[pri:0, instance:Test.CarLoanTest@6e2c9341]" started-at="2026-07-20T06:42:52 GMT-05:00" name="CarTest" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="2" status="PASS">
+        <test-method signature="CarTest()[pri:0, instance:Test.CarLoanTest@1efee8e7]" started-at="2026-07-22T03:33:05 GMT-05:00" name="CarTest" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarTest -->
       </class> <!-- Test.CarLoanTest -->
       <class name="Test.Day1NormalTest">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="BeforeSuite" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="BeforeSuite" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test.Day1NormalTest@5fdba6f9]" started-at="2026-07-20T06:42:52 GMT-05:00" name="AfterSuite" finished-at="2026-07-20T06:42:52 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test.Day1NormalTest@6dde5c8c]" started-at="2026-07-22T03:33:05 GMT-05:00" name="AfterSuite" finished-at="2026-07-22T03:33:05 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->

@@ -4,7 +4,10 @@
 
 <suite name="TestNGTest">
 
+
+
     <test name="TestNGTest2">
+    <parameter name="URL" value="abcclickacademy.com"/>
     <groups>
     <run>
     <exclude name="Smoke" />
@@ -22,6 +25,7 @@
     </test>
 
     <test name="TestNGTest3">
+    <parameter name="URL" value="qaclickacademy.com"/>
         <classes>
             <class name="Test.CarLoanTest">
             <methods>

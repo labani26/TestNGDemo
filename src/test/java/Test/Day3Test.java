@@ -36,6 +36,10 @@ public class Day3Test {
     public Object[][] getData() {
 
         Object[][] data = new Object[3][2];
+        
+      //1st combination - username, password - good credit history = row 
+     //2nd - username , password - no credit history 
+     //3rd - fradulent credit history
 
         data[0][0] = "firstsetUsername";
         data[0][1] = "password";

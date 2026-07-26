@@ -4,10 +4,9 @@
 
 <suite name="TestNGTest">
 
-
-
     <test name="TestNGTest2">
     <parameter name="URL" value="abcclickacademy.com"/>
+    <parameter name="API" value="xyzacademy.com"/>
     <groups>
     <run>
     <exclude name="Smoke" />
@@ -16,7 +15,7 @@
         <classes>
             <class name="Test.Day1NormalTest">
             <methods>
-            <include name="demo2"/>
+            <exclude name="demo2"/>
             </methods>
             </class>
             <class name="Test.Day2NormalTest"/>

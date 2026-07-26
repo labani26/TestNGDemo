@@ -1,6 +1,7 @@
 package Test;
 
 import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.AfterClass;
 
 import org.testng.annotations.BeforeSuite;
@@ -13,14 +14,18 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 import org.testng.annotations.Test;
+
+import org.testng.annotations.Parameters;
 //import org.testng.TestNG;
 //import java.util.List;
 
 public class Day1NormalTest {
 
+	@Parameters({"API"})
     @Test
-    public void demo() {
+    public void demo(String APIKeys ) {
         System.out.println("Hello TestNG");
+        System.out.println(APIKeys);
     }
     
     @Test(groups= {"Smoke"})
@@ -29,7 +34,7 @@ public class Day1NormalTest {
     }
     
     @BeforeTest  
-    public void BeforeTest() {
+    public void BeforeTest() { 
     	System.out.println("I will execute First");
     }
     

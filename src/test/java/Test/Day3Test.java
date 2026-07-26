@@ -15,7 +15,7 @@ public class Day3Test {
         System.out.println("kella lelooooooo");
         System.out.println("Username - " + Username);
         System.out.println("Password - " + Password);
-    }
+    } 
 
     @Test
     public void demo7() {

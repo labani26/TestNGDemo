@@ -21,11 +21,12 @@ import org.testng.annotations.Parameters;
 
 public class Day1NormalTest {
 
-	@Parameters({"API"})
+	@Parameters({"API", "URL"})
     @Test
-    public void demo(String APIKeys ) {
+    public void demo(String APIKeys, String URLname ) {
         System.out.println("Hello TestNG");
         System.out.println(APIKeys);
+        System.out.println(URLname);
     }
     
     @Test(groups= {"Smoke"})

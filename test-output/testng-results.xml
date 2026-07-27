@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="14" passed="9" failed="1" skipped="0">
+<testng-results ignored="4" total="15" passed="9" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-27T03:42:33 GMT-05:00" name="TestNGTest" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="252">
+  <suite started-at="2026-07-27T04:53:35 GMT-05:00" name="TestNGTest" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="460">
     <groups>
     </groups>
-    <test started-at="2026-07-27T03:42:33 GMT-05:00" name="TestNGTest2" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="116">
+    <test started-at="2026-07-27T04:53:35 GMT-05:00" name="TestNGTest2" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="214">
       <class name="Test.Day3Test">
-        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="3" status="PASS">
+        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo6 -->
-        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="3" status="PASS">
+        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo6 -->
-        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo6(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo6" data-provider="getData" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,33 +55,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo6 -->
-        <test-method signature="demo7()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo7" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo7()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo7" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo7 -->
-        <test-method signature="demo9()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo9" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="demo9()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo9" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo9 -->
-        <test-method signature="demo5()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo5" finished-at="2026-07-27T03:42:33 GMT-05:00" depends-on-methods="Test.Day3Test.demo7, Test.Day3Test.demo9" duration-ms="0" status="PASS">
+        <test-method signature="demo5()[pri:0, instance:Test.Day3Test@5e955596]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo5" finished-at="2026-07-27T04:53:35 GMT-05:00" depends-on-methods="Test.Day3Test.demo7, Test.Day3Test.demo9" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo5 -->
       </class> <!-- Test.Day3Test -->
       <class name="Test.Day1NormalTest">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="BeforeTest" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="BeforeTest" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="BeforeClass" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="BeforeClass" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="BeforeMethod" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="BeforeMethod" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="9" status="PASS">
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,21 +97,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="AfterMethod" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="AfterMethod" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="AfterClass" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="AfterClass" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="AfterTest" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="AfterTest" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- Test.Day1NormalTest -->
       <class name="Test.Day2NormalTest">
-        <test-method signature="demo3(java.lang.String)[pri:0, instance:Test.Day2NormalTest@1ad282e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="demo3" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="3" status="PASS">
+        <test-method signature="demo3(java.lang.String)[pri:0, instance:Test.Day2NormalTest@1ad282e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="demo3" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,9 +124,9 @@
         </test-method> <!-- demo3 -->
       </class> <!-- Test.Day2NormalTest -->
     </test> <!-- TestNGTest2 -->
-    <test started-at="2026-07-27T03:42:33 GMT-05:00" name="TestNGTest3" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="21">
+    <test started-at="2026-07-27T04:53:35 GMT-05:00" name="TestNGTest3" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="30">
       <class name="Test.CarLoanTest">
-        <test-method signature="CanAutoTest()[pri:0, instance:Test.CarLoanTest@12405818]" started-at="2026-07-27T03:42:33 GMT-05:00" name="CanAutoTest" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="15" status="FAIL">
+        <test-method signature="CanAutoTest()[pri:0, instance:Test.CarLoanTest@10b48321]" started-at="2026-07-27T04:53:35 GMT-05:00" name="CanAutoTest" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="13" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -168,7 +168,7 @@ at Test.TestRunner.main(TestRunner.java:13)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CanAutoTest -->
-        <test-method signature="CarTest(java.lang.String)[pri:0, instance:Test.CarLoanTest@12405818]" started-at="2026-07-27T03:42:33 GMT-05:00" name="CarTest" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method signature="CarTest(java.lang.String)[pri:0, instance:Test.CarLoanTest@10b48321]" started-at="2026-07-27T04:53:35 GMT-05:00" name="CarTest" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,13 +179,45 @@ at Test.TestRunner.main(TestRunner.java:13)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarTest -->
+        <test-method signature="SkippedAutoTest()[pri:0, instance:Test.CarLoanTest@10b48321]" started-at="2026-07-27T04:53:35 GMT-05:00" name="SkippedAutoTest" finished-at="2026-07-27T04:53:35 GMT-05:00" depends-on-methods="Test.CarLoanTest.CanAutoTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Test.CarLoanTest.SkippedAutoTest() on instance Test.CarLoanTest@10b48321 depends on not successfully finished methods 
+[Test.CarLoanTest.CanAutoTest() on instance Test.CarLoanTest@10b48321]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Test.CarLoanTest.SkippedAutoTest() on instance Test.CarLoanTest@10b48321 depends on not successfully finished methods 
+[Test.CarLoanTest.CanAutoTest() on instance Test.CarLoanTest@10b48321]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at Test.TestRunner.main(TestRunner.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkippedAutoTest -->
       </class> <!-- Test.CarLoanTest -->
       <class name="Test.Day1NormalTest">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="BeforeSuite" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="BeforeSuite" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T03:42:33 GMT-05:00" name="AfterSuite" finished-at="2026-07-27T03:42:33 GMT-05:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test.Day1NormalTest@4f51b3e0]" started-at="2026-07-27T04:53:35 GMT-05:00" name="AfterSuite" finished-at="2026-07-27T04:53:35 GMT-05:00" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->

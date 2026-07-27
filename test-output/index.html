@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,  1 skipped,  9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-TestNGTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestNGTest" class="hide-methods skipped suite-TestNGTest"> (hide)</a> <!-- hide-methods skipped suite-TestNGTest -->
+                      <a href="#" panel-name="suite-TestNGTest" class="show-methods skipped suite-TestNGTest"> (show)</a> <!-- show-methods skipped suite-TestNGTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestNGTest">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGTest" title="Test.CarLoanTest" class="method navigator-link" hash-for-method="SkippedAutoTest">SkippedAutoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestNGTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,17 +151,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGTest" title="Test.Day3Test" class="method navigator-link" hash-for-method="demo6(secondUsername, secondPassword)">demo6(secondUsername, secondPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGTest" title="Test.Day3Test" class="method navigator-link" hash-for-method="demo6(firstsetUsername, password)">demo6(firstsetUsername, password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGTest" title="Test.Day3Test" class="method navigator-link" hash-for-method="demo6(thirdUsername, thirdPassword)">demo6(thirdUsername, thirdPassword)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNGTest" title="Test.Day3Test" class="method navigator-link" hash-for-method="demo6(secondUsername, secondPassword)">demo6(secondUsername, secondPassword)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -193,6 +207,27 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestNGTest-class-failed -->
+          <div class="suite-TestNGTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Test.CarLoanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SkippedAutoTest">
+                  </a> <!-- SkippedAutoTest -->
+                  <span class="method-name">SkippedAutoTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Test.CarLoanTest.SkippedAutoTest() on instance Test.CarLoanTest@10b48321 depends on not successfully finished methods 
+[Test.CarLoanTest.CanAutoTest() on instance Test.CarLoanTest@10b48321]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at Test.TestRunner.main(TestRunner.java:13)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGTest-class-skipped -->
           <div class="suite-TestNGTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -204,6 +239,14 @@
                   <a name="demo5">
                   </a> <!-- demo5 -->
                   <span class="method-name">demo5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo6(secondUsername, secondPassword)">
+                  </a> <!-- demo6(secondUsername, secondPassword) -->
+                  <span class="method-name">demo6</span>
+                  <span class="parameters">(secondUsername,secondPassword)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -220,14 +263,6 @@
                   </a> <!-- demo6(thirdUsername, thirdPassword) -->
                   <span class="method-name">demo6</span>
                   <span class="parameters">(thirdUsername,thirdPassword)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="demo6(secondUsername, secondPassword)">
-                  </a> <!-- demo6(secondUsername, secondPassword) -->
-                  <span class="method-name">demo6</span>
-                  <span class="parameters">(secondUsername,secondPassword)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -375,52 +410,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CanAutoTest')
 data.setCell(0, 2, 'Test.CarLoanTest')
-data.setCell(0, 3, 15);
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'demo')
 data.setCell(1, 2, 'Test.Day1NormalTest')
-data.setCell(1, 3, 9);
+data.setCell(1, 3, 12);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'demo3')
-data.setCell(2, 2, 'Test.Day2NormalTest')
-data.setCell(2, 3, 3);
+data.setCell(2, 1, 'demo6')
+data.setCell(2, 2, 'Test.Day3Test')
+data.setCell(2, 3, 10);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'demo6')
-data.setCell(3, 2, 'Test.Day3Test')
-data.setCell(3, 3, 3);
+data.setCell(3, 1, 'demo3')
+data.setCell(3, 2, 'Test.Day2NormalTest')
+data.setCell(3, 3, 7);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'demo6')
+data.setCell(4, 1, 'demo9')
 data.setCell(4, 2, 'Test.Day3Test')
-data.setCell(4, 3, 3);
+data.setCell(4, 3, 5);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'demo9')
+data.setCell(5, 1, 'demo6')
 data.setCell(5, 2, 'Test.Day3Test')
-data.setCell(5, 3, 1);
+data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'demo7')
+data.setCell(6, 1, 'demo6')
 data.setCell(6, 2, 'Test.Day3Test')
-data.setCell(6, 3, 1);
+data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'demo6')
+data.setCell(7, 1, 'demo7')
 data.setCell(7, 2, 'Test.Day3Test')
-data.setCell(7, 3, 1);
+data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'CarTest')
 data.setCell(8, 2, 'Test.CarLoanTest')
-data.setCell(8, 3, 1);
+data.setCell(8, 3, 2);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'demo5')
 data.setCell(9, 2, 'Test.Day3Test')
-data.setCell(9, 3, 0);
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SkippedAutoTest')
+data.setCell(10, 2, 'Test.CarLoanTest')
+data.setCell(10, 3, 0);
 window.suiteTableData['TestNGTest']= { tableData: data, tableDiv: 'times-div-TestNGTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 ms</span>
+              <span class="suite-total-time">Total running time: 56 ms</span>
               <div id="times-div-TestNGTest">
               </div> <!-- times-div-TestNGTest -->
             </div> <!-- times-div -->
@@ -481,68 +520,68 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">BeforeClass</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod</span>
-                <span class="method-start">84 ms</span>
+                <span class="method-start">103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demo(xyzacademy.com, abcclickacademy.com)</span>
-                <span class="method-start">85 ms</span>
+                <span class="method-start">107 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AfterMethod</span>
-                <span class="method-start">97 ms</span>
+                <span class="method-start">128 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">AfterClass</span>
-                <span class="method-start">101 ms</span>
+                <span class="method-start">133 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day2NormalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">demo3(abcclickacademy.com)</span>
-                <span class="method-start">106 ms</span>
+                <span class="method-start">143 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day3Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">demo6(firstsetUsername, password)</span>
-                <span class="method-start">116 ms</span>
+                <span class="method-start">163 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo6(secondUsername, secondPassword)</span>
-                <span class="method-start">120 ms</span>
+                <span class="method-start">168 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo6(thirdUsername, thirdPassword)</span>
-                <span class="method-start">124 ms</span>
+                <span class="method-start">186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo7</span>
-                <span class="method-start">126 ms</span>
+                <span class="method-start">199 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo9</span>
-                <span class="method-start">129 ms</span>
+                <span class="method-start">204 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo5</span>
-                <span class="method-start">136 ms</span>
+                <span class="method-start">219 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day1NormalTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTest</span>
-                <span class="method-start">137 ms</span>
+                <span class="method-start">231 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -551,18 +590,18 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">CanAutoTest</span>
-                <span class="method-start">254 ms</span>
+                <span class="method-start">454 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CarTest(qaclickacademy.com)</span>
-                <span class="method-start">272 ms</span>
+                <span class="method-start">469 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.Day1NormalTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">AfterSuite</span>
-                <span class="method-start">293 ms</span>
+                <span class="method-start">504 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -10,6 +10,7 @@
       <class name="Test.CarLoanTest">
         <methods>
           <include name="CanAutoTest"/>
+          <include name="SkippedAutoTest"/>
         </methods>
       </class> <!-- Test.CarLoanTest -->
     </classes>

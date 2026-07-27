@@ -32,8 +32,18 @@ public class CarLoanTest {
 			
 			System.out.println("Car Auto Test");
 			Assert.assertTrue(false);
+			//false != true
+            //So TestNG throws an AssertionError.
+			//then failed listener will show
 		}
 		
+	@Test(dependsOnMethods = "CanAutoTest")
+	public void SkippedAutoTest() {
+		
+		System.out.println("Skipp Auto Test");
+		//in this situation skipped listener will work
+		
+	}
 //		public static void main(String[] args) {
 //
 //	        TestNG testng = new TestNG();

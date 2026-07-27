@@ -4,6 +4,11 @@
 
 <suite name="TestNGTest">
 
+<listeners>
+    <listener class-name="Test.Listener"/>
+</listeners>
+
+
     <test name="TestNGTest2">
     <parameter name="URL" value="abcclickacademy.com"/>
     <parameter name="API" value="xyzacademy.com"/>

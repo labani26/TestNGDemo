@@ -1,5 +1,6 @@
 package Test;
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 
 //import java.util.List;
@@ -23,13 +24,14 @@ public class CarLoanTest {
 		
 		System.out.println("Car Web Test");
 		
+		
 	}
 	
 	@Test
 		public void CanAutoTest() {
 			
 			System.out.println("Car Auto Test");
-			
+			Assert.assertTrue(false);
 		}
 		
 //		public static void main(String[] args) {

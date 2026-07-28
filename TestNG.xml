@@ -9,7 +9,11 @@
     <listener class-name="Test.Listener"/>
 </listeners>
 
-
+    <test name="Inheritance">
+    <classes>
+    <class name = "Test.Inheritance2"/>
+    </classes>
+    </test>
     <test name="TestNGTest2">
     <parameter name="URL" value="abcclickacademy.com"/>
     <parameter name="API" value="xyzacademy.com"/>
